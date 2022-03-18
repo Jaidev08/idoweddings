@@ -205,7 +205,7 @@ outline: 0;
                 <ul>
                     <li><a class="nav-link scrollto" href="index.php">Home</a></li>
                     <li><a class="nav-link scrollto" href="about.php">About</a></li>
-                    <li><a class="nav-link scrollto" href="banquethalls.php">Banquet Halls</a></li>
+                    <li><a class="nav-link scrollto" href="banquethalls.php">Banquets</a></li>
                     <li><a class="nav-link scrollto" href="caterers.php">Caterers</a></li>
                     <li><a class="nav-link scrollto" href="packages.php">Packages</a></li>
                     <li><a class="nav-link scrollto" href="makeup.php">Makeup</a></li>
@@ -242,7 +242,7 @@ outline: 0;
 						else
 							{
                                     
-               echo  '<a href="" class="book-a-table-btn scrollto d-none d-lg-flex">'.$_SESSION["first_name"].'</a>';
+               echo  '<a href="userdashboard.php" class="book-a-table-btn scrollto d-none d-lg-flex">'.$_SESSION["first_name"].'</a>';
                                     
                echo  '<a href="logout.php" class="book-a-table-btn scrollto d-none d-lg-flex">Logout</a>';   
 							}

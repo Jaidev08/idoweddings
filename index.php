@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-session_start(); 
+@session_start(); 
 error_reporting(0); 
 include("connection/connect.php");
 
@@ -315,7 +315,7 @@ outline: 0;
                 <ul>
                     <li><a class="nav-link scrollto" href="index.php">Home</a></li>
                     <li><a class="nav-link scrollto" href="about.php">About</a></li>
-                    <li><a class="nav-link scrollto" href="banquethalls.php">Banquet Halls</a></li>
+                    <li><a class="nav-link scrollto" href="banquethalls.php">Banquets</a></li>
                     <li><a class="nav-link scrollto" href="caterers.php">Caterers</a></li>
                     <li><a class="nav-link scrollto" href="packages.php">Packages</a></li>
                     <li><a class="nav-link scrollto" href="makeup.php">Makeup</a></li>

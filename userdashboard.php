@@ -120,7 +120,7 @@ echo '</pre>';
                                 </div>
                                 <div class="media-body media-text-right">
                                     <h2><?php
-   $connection_mysql = mysqli_connect("localhost","root","","ido_weddings");
+   $connection_mysql = mysqli_connect("localhost","id18635916_root","{{+4g+y&{62MCZ?i","id18635916_ido_weddings");
    
    if (mysqli_connect_errno($connection_mysql)){
       echo "Failed to connect to MySQL: " . mysqli_connect_error();
