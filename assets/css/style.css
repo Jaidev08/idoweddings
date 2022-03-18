@@ -1,9 +1,4 @@
-/**
-* Template Name: Restaurantly - v3.1.0
-* Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # General
@@ -955,7 +950,9 @@ section {
 }
 
 .menu .menu-content::after {
-  content: "......................................................................" "...................................................................." "....................................................................";
+  content: "......................................................................"
+ "...................................................................."
+ "....................................................................";
   position: absolute;
   left: 20px;
   right: 0;
@@ -1077,7 +1074,7 @@ section {
 # Events
 --------------------------------------------------------------*/
 .events {
-  background: url(../img/events-bg1.jpg) center center no-repeat;
+  background: url("../img/events-bg1.jpg") center center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -1285,7 +1282,14 @@ section {
   margin-left: 250px;
 }
 
-
+.bookbanquets {
+  background: #cda45e;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
 
 /*--------------------------------------------------------------
 # Testimonials
@@ -1383,7 +1387,7 @@ section {
 # Chefs
 --------------------------------------------------------------*/
 .chefs {
-  background: url("../img/makeup-bg.png") center center;
+  background: url("") center center;
   background-size: cover;
   position: relative;
   padding: 80px 0;
